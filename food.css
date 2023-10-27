@@ -1,0 +1,140 @@
+body {
+  background: url(food.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: cover;
+  background-position-y: -600px;
+}
+
+.navbar ul {
+  overflow: auto;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+
+  margin: auto 11px;
+  padding: 10px 16px;
+  position: relative;
+  left: 710px;
+  display: block;
+}
+.navbar a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+.name {
+  text-align: center;
+  /* font-family: Okra, Helvetica, sans-serif; */
+  font-family: Okra, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  font-size: 50px;
+  position: relative;
+  bottom: 40px;
+
+  font-style: italic;
+  display: block;
+}
+.tital {
+  text-align: center;
+  color: white;
+  position: relative;
+  bottom: 110px;
+  font-family: Okra, Helvetica, sans-serif;
+  /* font-weight:normal; */
+}
+
+
+.search input[type="text"] {
+  width: 300px;
+  height: 25px;
+  border-radius: 25px;
+  border: none;
+}
+
+.search {
+  position: relative;
+  text-align: center;
+  margin: 7px;
+  bottom: 90px;
+ border-radius: 8px;
+}
+.box{
+  display: inline-block;
+  /* border:3px solid red; */
+  position: relative;
+  left: 190px;
+  width: 350px;
+  height: 230px;
+  margin: 30px 15px;
+ border-radius: 25px;
+ transition: 1s;
+ 
+}
+#box1{
+background: url(OnlineFood.jpg);
+ background-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+#box2{
+background: url(table.jpg);
+ background-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: cover;
+      cursor: pointer;
+}
+#box3{
+background: url(party.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: cover;
+      cursor: pointer;
+   
+ 
+}
+#box1:hover{
+  transform: scale(1.3);
+  z-index: 2;
+}
+#box2:hover{
+  transform: scale(1.3);
+  z-index: 2;
+}
+#box3:hover{
+  transform: scale(1.3);
+  z-index: 2;
+}
+
+ 
+
+#onlineFood{
+     position:absolute;
+     left: 210px;
+   position: relative;
+   bottom: 40px;
+}
+
+
+.dining{
+position:absolute;
+     left: 600px;
+   position: relative;
+   bottom: 140px;
+}
+.party{
+  position:absolute;
+     left: 980px;
+   position: relative;
+   bottom: 240px;
+}
